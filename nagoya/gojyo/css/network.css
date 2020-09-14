@@ -1,0 +1,40 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	互助会のネットワーク
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#NetWork{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#NetWork .NetWork_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.NetWork_Wrapper{
+	margin-bottom:35px;
+}
+
+.NetWork_Wrapper h5{
+	margin-bottom:20px;
+}
+
+.NetWork_Wrapper p{
+	margin-bottom:15px;
+}
+
+.NetWork_Wrapper p.left_text{
+	float:left;
+	width:302px;
+}
+
+.NetWork_Wrapper p.left_text2{
+	float:left;
+	width:249px;
+}
+
+.NetWork_Wrapper img.right_img{
+	float:right;	
+}

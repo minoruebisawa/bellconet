@@ -1,0 +1,298 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	リセット
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body,
+h1,h2,h3,h4,h5,h6,p,
+ul,ol,li,dl,dt,dd,
+form,fieldset,legend,pre,blockquote,button{
+	margin:0px;
+	padding:0px;
+}
+
+ul,li { list-style:none; }
+
+img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	vertical-align:bottom;
+}
+
+th{ font-weight:normal; }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	デフォルト
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body {
+	margin:0px;
+	padding:0px;
+	background: #FFFFFF url("../images/bg.gif") repeat-x left top;
+	font-size:80%;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	_font:13px/1.231 Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	line-height:1.5em;
+	color:#5e5e5e;
+}
+
+*html body {/* IE6 フォント指定*/
+	font-size:76%;
+}
+/*IE6用 ロールオーバーチラつき解除*/
+html{
+	height:100%;
+	_filter expression(document.execCommand("BackgroundImageCache",fals,true));	
+}
+
+h1 { margin:0; }
+
+h2 { margin:0; }
+
+h3 { margin:0; }
+
+h4 { margin:0; }
+
+a,
+a:link,
+a:visited {
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	text-decoration:none;
+}
+
+p { line-height:1.5em; }
+
+hr { display:none; }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	全体枠
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_All{
+	width:1000px;
+	margin:0 auto;
+	padding:0;
+}
+
+#Section_All h1{
+	height:22px;
+	font-size:75%;
+	font-weight:normal;
+	color:#00446e;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	ヘッダー
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Header{
+	margin:9px 0 10px 0;	
+}
+
+#Header h2{
+	float:left;
+	width:208px;
+	margin-top:6px;
+}
+
+#Header #Online_Area{
+	float:left;
+	width:635px;
+	margin:0 0 11px 137px;
+	text-align:right;
+}
+
+#Header #Online_Area img.left_title{
+	float:left;
+	margin-top:16px;
+}
+
+#Header #Online_Area .online_btn_area{
+	float:left;
+	background:url("../images/online_bg_repeat.gif") repeat-x left top;
+}
+
+#Header #Online_Area .online_btn_area img.left_img{
+	float:left;
+}
+
+#Header #Online_Area .online_btn_area ul{
+	float:left;
+	padding:7px 7px 7px 1px;
+	background:url("../images/online_bg_right.gif") no-repeat right top;
+}
+
+#Header #Online_Area .online_btn_area ul li{
+	float:left;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	メイン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*-----------左側-----------*/
+#Main #Left{
+	float:left;
+	width:334px;
+	margin-right:7px;
+}
+
+#Main #Left .Map_Area{
+	height:294px;
+	padding:35px 17px 23px 27px;
+	background:url("../images/area_bg.gif") no-repeat left top;	
+}
+
+#Main #Left .Map_Area ul li{
+	float:left;
+	margin:0 10px 19px 0;
+}
+
+
+/*--------右側--------*/
+#Main #Right{
+	float:left;
+	width:619px;
+	padding:10px;
+	background:url("../images/main_bg.gif") no-repeat left top;
+}
+
+#feature_list {
+    width: 617px;
+    height: 362px;
+    overflow: hidden;
+    position: relative;
+	border:1px solid #CCCCCC;
+}
+#feature_list ul {
+    list-style: none outside none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+}
+#feature_list ul#tabs {
+    left: 0;
+    width: 170px;
+    z-index: 2;
+}
+#feature_list ul#tabs li img {
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+#feature_list ul#tabs li{
+    background: url("../images/thumb.gif") repeat scroll 0 0 transparent;
+}
+
+#feature_list ul#tabs li.thumb02{
+	border-top:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+
+#feature_list ul#tabs li a {
+    display: block;
+    height: 120px;
+    outline: medium none;
+    padding: 0;
+    background: url("../images/thumb.gif") repeat scroll 0 0 transparent;
+}
+#feature_list ul#tabs li a:hover {
+    background: url("../images/thumb_on.gif") repeat scroll 0 0 transparent;
+    text-decoration: none;
+}
+#feature_list ul#tabs li a.current {
+    background: url("../images/thumb_on.gif") repeat scroll 0 0 transparent;
+    color: #FFFFFF;
+}
+#feature_list ul#tabs li a.current:hover {
+    cursor: default;
+    text-decoration: none;
+}
+#feature_list ul#output {
+    float: right;
+    height: 362px;
+    position: relative;
+    right: 0;
+    width: 447px;
+}
+#feature_list ul#output li {
+    height: 362px;
+    position: absolute;
+    width: 447px;
+}
+#feature_list ul#output li a {
+    border: medium none;
+    position: absolute;
+}
+#feature_list ul#output li a:hover {
+    border: medium none;
+}
+
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	フッター
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Footer{
+	width:980px;
+	margin:30px auto 0 auto;
+	padding-top:15px;
+	border-top:1px solid #bfbfbf;
+}
+
+#Footer ul{
+	float:left;
+	width:345px;
+}
+
+#Footer ul.Btn_Area li{
+	float:left;
+	margin-right:16px;
+}
+
+#Footer p{
+	float:left;
+	width:635px;
+	text-align:right;
+	font-size:80%;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	対複数設定
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.clear{
+	clear:both;	
+}
+
+.font_s{
+	font-size:75%;	
+}
+
+.red{
+	color:#ab231a;	
+}
+
+.blue{
+	color:#1f90a8;
+}
+
+.navy{
+	color:#002e4a;
+}
+
+/*---------------------------------------
+	フロート解除用
+---------------------------------------*/
+.clearfix{
+	zoom:1; /* clear float - ie */
+}
+.clearfix:after{ /* clear float */
+	content:".";
+	display:block;
+	height:0;
+	clear: both;
+	visibility:hidden;
+}

@@ -1,0 +1,19 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	入会に関するQ＆A
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Q{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Q .Q_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+/*上部テキスト*/
+#Q .Q_Contents p.text_top{
+	margin-bottom:20px;
+}

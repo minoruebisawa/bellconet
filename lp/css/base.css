@@ -1,0 +1,439 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	リセット
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body,
+h1,h2,h3,h4,h5,h6,p,
+ul,ol,li,dl,dt,dd,
+form,fieldset,legend,pre,blockquote,button{
+	margin:0px;
+	padding:0px;
+}
+
+ul,li { list-style:none; }
+
+img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	vertical-align:bottom;
+}
+
+th{ font-weight:normal; }
+
+fieldset,iframe {
+	border:0px;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	デフォルト
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body {
+	margin:0px;
+	padding:0px;
+	background: #FFFFFF url("../images/bg.png") repeat-x left top;
+	font-size:85%;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	_font:13px/1.231 Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	line-height:1.6;
+	color:#5e5e5e;
+}
+
+*html body {/* IE6 フォント指定*/
+	font-size:76%;
+}
+/*IE6用 ロールオーバーチラつき解除*/
+html{
+	height:100%;
+	_filter expression(document.execCommand("BackgroundImageCache",fals,true));	
+}
+
+h1 { margin:0; }
+
+h2 { margin:0; }
+
+h3 { margin:0; }
+
+h4 { margin:0; }
+
+a,
+a:link,
+a:visited {
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	text-decoration:none;
+}
+
+hr { display:none; }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	全体枠
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_All{
+	width:962px;
+	margin:0 auto;
+	background:url("../images/contents_bg.png") repeat-y left top;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	メイン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+/*ヘッダー*/
+#Header{
+	position:relative;
+	padding:340px 20px 0;
+	background:url("../images/top_image.png") no-repeat left top;
+	margin: 0 0 15px;
+}
+#Header h1{
+	display:none;
+}
+#Header h2{
+	display:none;
+}
+
+#Header .btn_area{
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	入会ボタン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.btnOnline{
+	text-align: center;
+	margin-bottom: 50px;
+}
+.btnOnline a:hover{
+	opacity: 0.6 ;
+	filter: alpha(opacity=60) ;
+}
+
+
+.btn_area{
+	position:relative;
+	background:url("../images/btn_bg.png") no-repeat left top;
+	width:900px;
+	height:100px;
+	margin:20px auto;
+}
+
+.btn_area .title{
+	display:none;
+}
+.btn_area .ari{
+	position: absolute;
+	left:570px;
+	top:20px;
+}
+.btn_area .nasi{
+	position: absolute;
+	left:250px;
+	top:20px;
+}
+
+.btn_area .ari a{
+	display:block;
+	width:311px;
+	height:64px;
+	background:url("../images/btn_navi.png") no-repeat left top;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.btn_area .ari a:hover{
+	background:url("../images/btn_navi_on.png") no-repeat left top;
+}
+.btn_area .nasi a{
+	display:block;
+	width:311px;
+	height:64px;
+	background:url("../images/btn_nonavi.png") no-repeat left top;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.btn_area .nasi a:hover{
+	background:url("../images/btn_nonavi_on.png") no-repeat left top;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	対複数設定
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.clear{
+	clear:both;	
+}
+
+.font_s{
+	font-size:75%;	
+}
+
+.red{
+	color:#ab231a;	
+}
+
+.blue{
+	color:#1f90a8;
+}
+
+.navy{
+	color:#002e4a;
+}
+
+#Section {
+	padding:0 30px;
+	margin-bottom: 65px;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	メニュー
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.menu{
+	position: relative;
+	width:900px;
+	height:281px;
+	background:url("../images/05.png") no-repeat left top;
+}
+.menu a{
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.menu .menu01 {
+	position: absolute;
+	left:20px;
+	top:160px;
+}
+.menu .menu02 {
+	position: absolute;
+	left:313px;
+	top:160px;
+}
+.menu .menu03 {
+	position: absolute;
+	left:606px;
+	top:160px;
+}
+
+.menu .menu01 a{
+	display:block;
+	width:274px;
+	height:100px;
+	background:url("../images/menu01.png") no-repeat left top;
+}
+.menu .menu01 a:hover{
+	background:url("../images/menu01_on.png") no-repeat left top;
+}
+.menu .menu02 a{
+	display:block;
+	width:274px;
+	height:100px;
+	background:url("../images/menu02.png") no-repeat left top;
+}
+.menu .menu02 a:hover{
+	background:url("../images/menu02_on.png") no-repeat left top;
+}
+.menu .menu03 a{
+	display:block;
+	width:274px;
+	height:100px;
+	background:url("../images/menu03.png") no-repeat left top;
+}
+.menu .menu03 a:hover{
+	background:url("../images/menu03_on.png") no-repeat left top;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	よくある失敗談・ベルコなら
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.question {
+	width:860px;
+	margin:0 auto;
+	background:url("../images/question_bg.png") no-repeat left top;
+}
+.question .txt {
+	display:block;
+	padding:65px 0 20px 180px;
+  min-height: 90px;
+  height: auto !important;
+  height: 90px;
+	background:url("../images/question_bottom.png") no-repeat left bottom;
+}
+.question .txt li {
+	width:560px;
+	list-style-type:disc;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.8;
+}
+.answer {
+	width:860px;
+	margin:0 auto;
+	background:url("../images/answer_bg.png") no-repeat left top;
+}
+.answer .txt {
+	display:block;
+	padding:65px 0 20px 180px;
+  min-height: 115px;
+  height: auto !important;
+  height: 115px;
+	background:url("../images/answer_bottom.png") no-repeat left bottom;
+}
+.answer .txt li {
+	width:500px;
+	list-style-type:disc;
+	font-size:16px;
+	font-weight:bold;
+	line-height:1.8;
+}
+.answer .txt li.short ,
+.question .txt li.short {
+	padding-top:20px;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	コンテンツ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.section_box {
+	margin:20px 20px 40px;
+}
+.subttl {
+	margin:20px 0 0;
+}
+.detail_txt{
+	margin:10px 40px;
+}
+.ph11 {
+	padding:100px 340px 0 40px;
+	height:160px;
+	background:url("../images/11.png") no-repeat left top;
+}
+.ph13 {
+	padding:10px 0;
+	text-align:center;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	テーブル
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_Company {
+    margin: 20px auto;
+		font-size:12px;
+}
+#Section_Company table {
+    border-top: 1px solid #E0E6E9;
+}
+#Section_Company table th {
+    border-bottom: 1px solid #E0E6E9;
+    color: #00446E;
+    font-weight: bold;
+    padding: 5px ;
+    text-align: left;
+    width: 78px;
+}
+#Section_Company table td {
+    border-bottom: 1px solid #E0E6E9;
+    padding: 5px;
+}
+#Section_Company .table_left {
+	float:left;
+	width:530px;
+	margin-right:10px;
+}
+#Section_Company .table_right {
+	float:right;
+	width:320px;
+}
+
+
+
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　ページトップ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.pagetop_middle {
+	width:900px;
+	margin:0 auto;
+}
+.pagetop_middle a {
+	display:block;
+	margin:0 0 0 auto;
+	width:94px;
+	height:17px;
+	background:url("../images/pagetop.gif") no-repeat left top;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.pagetop_middle a:hover {
+	background:url("../images/pagetop_on.gif") no-repeat left top;
+}
+
+.pagetop {
+	width:900px;
+	margin:0 auto;
+	border-bottom: 4px solid #000000;
+}
+.pagetop a {
+	display:block;
+	margin:0 0 0 auto;
+	width:94px;
+	height:17px;
+	background:url("../images/pagetop.gif") no-repeat left top;
+	text-indent:-9999px;
+	overflow: hidden;
+}
+.pagetop a:hover {
+	background:url("../images/pagetop_on.gif") no-repeat left top;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　フッター
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Footer{
+	margin:0 auto;
+	padding:10px 31px 25px;
+	background:url("../images/contents_bottom.png") no-repeat center bottom;
+}
+
+#Footer #Footer_Wrapper{
+	margin:0 auto;
+}
+#Footer #Footer_Wrapper .copyright{
+	text-align:right;
+	height:12px;
+	margin-top:5px;
+	font-size:80%;
+	color:#5f5c51;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	オンライン入会
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.online{
+	text-align: center;
+	margin: 0 auto 50px;
+}
+.online .onlineHdg{
+	margin-bottom: 40px;
+}
+.online .onlineImg{
+	margin-bottom: 10px;
+}
+.online .onlineNote{
+	font-size: 13px;
+}
+
+
+/*---------------------------------------
+	フロート解除用
+---------------------------------------*/
+.clearfix{
+	zoom:1; /* clear float - ie */
+}
+.clearfix:after{ /* clear float */
+	content:".";
+	display:block;
+	height:0;
+	clear: both;
+	visibility:hidden;
+}

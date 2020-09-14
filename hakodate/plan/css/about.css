@@ -1,0 +1,110 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	ご利用について
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#About{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#About .About_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+/*タブメニュー設定*/
+
+#container ul.tabNav {
+	width: 633px;
+}
+
+#container ul.tabNav li{
+	float:left;
+	text-align:center;
+	vertical-align: bottom;
+}
+
+#container ul.tabNav li.tab01{
+	margin-right:5px;
+}
+
+#container ul.tabNav li a,
+#container ul.tabNav li a:link
+#container ul.tabNav li a:visited{
+	display: block;
+	width: 314px;
+	height:25px;
+	padding-top:15px;
+	background:url("../images/tab03_bg.gif") no-repeat left bottom;
+	color: #FFFFFF;
+	text-decoration:none;
+	font-size:130%;
+	font-weight:bold;
+} 
+
+#container ul.tabNav li.tab01 a,
+#container ul.tabNav li.tab01 a:link
+#container ul.tabNav li.tab01 a:visited{
+	background:url("../images/tab02_bg.gif") no-repeat left bottom;
+}
+
+#container ul.tabNav li a.active,
+#container ul.tabNav li a:active{
+	background:url("../images/tab03_bg_on.gif") no-repeat left bottom;
+	text-decoration:none;
+}
+
+#container ul.tabNav li.tab01 a.active,
+#container ul.tabNav li.tab01 a:active{
+	background:url("../images/tab02_bg_on.gif") no-repeat left bottom;
+	text-decoration:none;
+}
+
+#tabContents{
+	clear:both;
+}
+
+#wedding,
+#ceremony{
+	border: solid 5px #d94242;
+	padding: 25px;
+}
+
+#wedding p,
+#ceremony p{
+	margin-bottom:25px;
+}
+
+#wedding dl dd,
+#ceremony dl dd{
+	margin:0 0 18px 0;
+	padding:0 0 18px 78px;
+	border-bottom:1px solid #a8a8a8;
+}
+
+#wedding dl dd.last,
+#ceremony dl dd.last{
+	border:none;
+}
+
+#wedding dl dd ul,
+#ceremony dl dd ul{
+	margin-top:15px;
+}
+
+#wedding dl dd ul li{
+	float:left;
+	margin-right:8px;
+}
+
+#ceremony dl dd ul{
+	margin-bottom:10px;
+	padding:10px;
+	border:1px solid #a8a8a8;	
+}
+
+#ceremony dl dd ul li{
+	padding-left:15px;
+	background:url("../images/about/squea_red.gif") no-repeat left 4px;
+}

@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	支社を探す
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Index{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Index .Index_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Index_Wrapper{
+	margin-bottom:35px;
+}
+
+.Index_Wrapper h5{
+	margin-bottom:20px;
+}
+
+/*支社*/
+.Index_Wrapper .para01{
+	margin-bottom:30px;
+	padding-bottom:5px;
+	background:url("../images/dot_line.gif") repeat-x left bottom;
+}
+
+.Index_Wrapper .para01 p{
+	margin-top:10px;
+	padding:0 10px;
+}
+
+/*会場一覧*/
+.Index_Wrapper .para02{
+	margin-bottom:50px;
+}
+
+.Index_Wrapper .para02 h6{
+	margin-bottom:10px;
+}
+
+.Index_Wrapper .para02 table th{
+	padding:5px 0;
+	background:#ffeda6;
+	font-weight:bold;
+}
+.Index_Wrapper .para02 table td{
+	padding:5px;
+}
+
+.bg_gray{
+	background:#f4f4f4;
+}
+
+.Index_Wrapper .para02 table td.arrow{
+	padding-left:17px;
+	background:url("../images/arrow_black.gif") no-repeat 2px 8px;
+}
+
+.Index_Wrapper .para02 table th.line_white{
+	border-right:1px solid #FFFFFF;
+	border-left:1px solid #FFFFFF;
+}
+
+.Index_Wrapper .para02 table a{
+	color:#43a3df;
+}
+
+/*その他の支社・会場一覧を見る*/
+.Index_Wrapper .para03 h6{
+	margin-bottom:10px;
+	padding-bottom:5px;
+	background:url("../images/dot_line.gif") repeat-x left bottom;
+}
+
+.Index_Wrapper .para03 ul{
+	margin-left:10px;
+}
+
+.Index_Wrapper .para03 ul li{
+	float:left;	
+	margin-right:24px;
+	padding-left:15px;
+	background:url("../images/arrow_black.gif") no-repeat left 2px;
+}
+
+.Index_Wrapper .para03 ul li a{
+	color:#43a3df;
+}

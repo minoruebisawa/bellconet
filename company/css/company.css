@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	
+    企業情報
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+
+#company{
+	
+	width:980px;
+
+	}
+
+#Index {
+    background: url("../../common/images/main_bg_repeat02.gif") repeat-y scroll left top transparent;
+    color: #404040;
+}
+
+#Index .Index_Contents {
+	
+    background: url("../../common/images/main_bg_bottom02.gif") no-repeat scroll left bottom transparent;
+	
+    padding: 25px 33px 33px;
+	
+}
+
+#Section_company{
+
+	width:900px;
+
+	margin:32px auto 50px auto;
+
+}
+
+
+
+#Section_company table{
+
+	border-top:1px solid #e0e6e9;	
+
+}
+
+
+
+#Section_company table th{
+
+	width:200px;
+
+	padding:10px;
+
+	border-bottom:1px solid #e0e6e9;
+
+	text-align:left;
+
+	font-weight:bold;
+
+	color:#00446e;
+
+}
+
+
+
+#Section_company table td{
+
+	padding:10px;
+
+	border-bottom:1px solid #e0e6e9;	
+
+}
+
+
+#Section_company table li{
+	list-style-type:disc;
+	margin-left:20px;
+	}
+	
+	
+#Section_company p.update {
+    margin-top: 20px;
+    text-align: right;
+}	
+	
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+
+	footer
+
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+
+.pagetop {
+    border-bottom: 4px solid #000000;
+    margin-top: 20px;
+    text-align: right;
+}
+

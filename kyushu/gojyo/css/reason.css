@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	互助会が安心の理由
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Reason{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Reason .Reason_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Reason_Wrapper{
+	margin-bottom:35px;
+}
+
+.Reason_Wrapper h5{
+	margin-bottom:20px;
+}
+
+.Reason_Wrapper p{
+	margin-bottom:15px;
+}
+
+.Reason_Wrapper p.left_text{
+	float:left;
+	width:280px;
+	line-height:2em;
+}
+
+.Reason_Wrapper dl{
+	float:left;
+	width:249px;
+}
+
+.Reason_Wrapper img.right_img{
+	float:right;	
+}
+
+.Reason_Wrapper img.title{
+	margin:0 0 10px 0;
+}

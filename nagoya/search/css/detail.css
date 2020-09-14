@@ -1,0 +1,599 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	支社を探す
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Index{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Index .Index_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	葬儀場検索一覧
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Index{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Index .Index_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Index_Wrapper{
+	margin-bottom:35px;
+}
+
+.Index_Wrapper h5{
+	margin-bottom:20px;
+}
+
+/*支社*/
+.Index_Wrapper .para01{
+	margin-bottom:30px;
+	padding-bottom:5px;
+	background:url("../images/dot_line.gif") repeat-x left bottom;
+}
+
+.Index_Wrapper .para01 p{
+	margin-top:10px;
+	padding:0 10px;
+}
+
+/*会場一覧*/
+.Index_Wrapper .para02{
+	margin-bottom:50px;
+}
+
+.Index_Wrapper .para02 h6{
+	margin-bottom:10px;
+}
+
+.Index_Wrapper .para02 table th{
+	padding:5px 0;
+	background:#ffeda6;
+	font-weight:bold;
+}
+.Index_Wrapper .para02 table td{
+	padding:5px;
+	font-size:90%;
+}
+
+.bg_gray{
+	background:#f4f4f4;
+}
+
+.Index_Wrapper .para02 table td.arrow{
+	padding-left:17px;
+	background:url("../images/arrow_black.gif") no-repeat 2px 8px;
+}
+
+.Index_Wrapper .para02 table th.line_white{
+	border-right:1px solid #FFFFFF;
+}
+
+.Index_Wrapper .para02 table a{
+	color:#43a3df;
+}
+
+.Index_Wrapper .para02 table td{
+	padding-bottom:5px;
+	border-bottom:1px dotted #666666;
+}
+
+/*その他の支社・会場一覧を見る*/
+.Index_Wrapper .para03 h6{
+	margin-bottom:10px;
+	padding-bottom:5px;
+	background:url("../images/dot_line.gif") repeat-x left bottom;
+}
+
+.Index_Wrapper .para03 ul{
+	margin-left:10px;
+}
+
+.Index_Wrapper .para03 ul li{
+	float:left;	
+	margin-right:24px;
+	padding-left:15px;
+	background:url("../images/arrow_black.gif") no-repeat left 2px;
+}
+
+.Index_Wrapper .para03 ul li a{
+	color:#43a3df;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	葬儀場検索
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Search{
+	margin:10px 0 0 0;
+	color:#544124;	
+}
+
+/*一覧へ戻るボタン*/
+#Search .btn_return{
+	margin-bottom:20px;
+}
+
+/*タブメニュー*/
+#Tab_Menu{
+	margin-bottom:1px;
+}
+
+#Tab_Menu ul{
+	height:29px;
+	padding:0 1px;
+	background:url("../images/detail/ul_bg.gif") repeat-x left top;
+}
+
+#Tab_Menu ul li{
+	float:left;
+	width:88px;
+	height:29px;
+	margin-left:2px;
+	padding-top:3px;
+	background:url("../images/detail/tab_bg.gif") no-repeat left top;
+	text-align:center;
+	font-size:90%;
+}
+
+#Tab_Menu ul li a{
+	color:#544124;
+}
+
+/*一覧枠*/
+.List_Wrapper{
+	background:url("../images/detail/title_bg.gif") repeat-x left 10px;
+}
+
+/*h4タイトル*/
+#Search .List_Wrapper h4{
+	padding:18px 20px 28px 25px;
+	color:#333333;
+	font-size:130%;
+}
+
+/*------------------------
+       基本情報
+------------------------*/
+#Hall_Data{
+	margin:10px 0px 0 0px;
+	font-size:90%;
+}
+
+/*------------基本情報左側------------*/
+#Hall_Data .Left{
+	float:left;
+	width:280px;
+}
+
+/*ボタン*/
+#Hall_Data .Left .Btn_Area{
+	width:222px;
+	margin:15px auto 7px auto;	
+}
+
+#Hall_Data .Left .Btn_Area li{
+	margin-bottom:5px;
+}
+
+
+/*QRコード*/
+.QR_Area{
+	width:280px;
+}
+
+/*地図を確認する*/
+.QR_Area .QR01{
+	height:68px;
+	margin-bottom:5px;
+	background:url("../images/detail/qr_bg01.gif") no-repeat left top;
+}
+
+.QR_Area .QR01 p{
+	float:left;
+	width:166px;
+	padding:26px 0 0 44px;
+}
+
+.QR_Area .QR01 p a{
+	color:#544124;
+}
+
+.QR_Area .QR01 img{
+	float:left;
+	margin:5px 10px 5px 0;
+}
+
+/*この会場に供花を送る*/
+.QR_Area .QR02{
+	height:68px;
+	margin-bottom:5px;
+	background:url("../images/detail/qr_bg02.gif") no-repeat left top;
+}
+
+.QR_Area .QR02 p{
+	float:left;
+	width:166px;
+	padding:26px 0 0 44px;
+}
+
+.QR_Area .QR02 p a{
+	color:#544124;
+}
+
+.QR_Area .QR02 img{
+	float:left;
+	margin:5px 10px 5px 0;
+}
+
+/*この会場に供花を送る*/
+.QR_Area .QR03{
+	height:68px;
+	background:url("../images/detail/qr_bg03.gif") no-repeat left top;
+}
+
+.QR_Area .QR03 p{
+	float:left;
+	width:166px;
+	padding:26px 0 0 44px;
+}
+
+.QR_Area .QR03 p a{
+	color:#544124;
+}
+
+.QR_Area .QR03 img{
+	float:left;
+	margin:5px 10px 5px 0;
+}
+
+
+/*------------基本情報右側------------*/
+#Hall_Data .Right{
+	float:left;
+	width:338px;
+	margin-left:10px;
+}
+
+/*基本情報（住所、連絡先など）*/
+#Hall_Data .Right .Basic_Data{
+	margin-bottom:20px;
+}
+
+#Hall_Data .Right .Basic_Data table{
+	width:336px;
+	padding:5px 5px 0 5px;
+	border:1px solid #ffd531;
+}
+
+#Hall_Data .Right .Basic_Data table th{
+	padding-bottom:5px;
+	text-align:right;	
+}
+
+#Hall_Data .Right .Basic_Data table td{
+	padding-bottom:5px;
+}
+
+/*TEL、受付時間*/
+#Hall_Data .Right .Basic_Data table .basic_area{
+	margin-right:15px;
+}
+
+#Hall_Data .Right .Basic_Data table td p.left{
+	float:left;
+	width:30px;
+}
+
+#Hall_Data .Right .Basic_Data table td .right{
+	float:left;
+	width:270px;
+}
+
+
+/*リードテキスト*/
+#Hall_Data .Right h5.Lead_Title{
+	margin-bottom:5px;
+	padding-bottom:2px;
+	font-size:120%;
+	font-weight:bold;
+	color:#634d9b;
+	border-bottom:2px solid #634d9b;
+}
+
+#Hall_Data .Right p.Lead_Text{
+	margin-bottom:20px;
+}
+
+/*葬儀スタイル～特記事項*/
+#Hall_Data .Right .Style{
+	margin-bottom:20px;
+}
+
+#Hall_Data .Right .Style dt{
+	padding:4px 6px;
+	background:url("../images/detail/hall_bg.gif") repeat left top;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+#Hall_Data .Right .Style dd{
+	padding-top:5px;	
+}
+
+h5.icon{
+	padding-left:22px;
+	background:url("../images/detail/icon_squea.gif") no-repeat left 4px;	
+	font-size:100%;
+}
+
+/*スタッフからのメッセージ*/
+#Hall_Data .Right .Style dd.message{
+	padding:7px;
+	background:#ececf1;
+}
+
+#Hall_Data .Right .Style dd img{
+	width:168px;
+	margin-left:9px;
+}
+
+/*共通タイトル設定*/
+.title{
+	margin-bottom:15px;
+	padding:4px 6px;
+	background:url("../images/detail/hall_bg.gif") repeat left top;
+	color:#FFFFFF;
+	font-weight:bold;
+}
+
+
+/*プラン*/
+#Plan{
+	margin-top:30px;
+}
+
+
+
+#Plan table.table01{
+	width:633px;
+	margin:0 auto 20px auto;
+	border:1px solid #f1f1f1;
+}
+
+#Plan th.Course{
+	font-size:100%;
+	line-height:1.8em;
+}
+
+#Plan td.td_space{
+	padding:0 10px;
+}
+
+#Plan table.price{
+	border-top:1px solid #f1f1f1;
+	border-left:1px solid #f1f1f1;
+}
+
+#Plan table.price .even{
+	background:#fbfaf4;
+}
+
+#Plan table.price th{
+	width:148px;
+	padding:3px;
+	text-align:left;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+}
+
+#Plan table.price td{
+	padding:3px;
+	text-align:right;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+}
+
+/* 20111216追加 */
+
+#Plan table.sougiPlan {
+	width:633px;
+	margin: 0 auto 20px;
+	border-collapse:collapse;
+	border-spacing: 0;
+	border: 1px solid #f1f1f1;
+}
+
+#Plan table.sougiPlan tr.line01 {
+	background-color: #ffffff;
+}
+
+#Plan table.sougiPlan tr.line02 {
+	background-color: #fbfaf4;
+}
+
+#Plan table.sougiPlan th {
+	padding: 3px;
+	background-color: #fbfaf4;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	font-weight: bold;
+}
+
+#Plan table.sougiPlan th.head {
+	padding: 5px;
+	background-color: #fbf5d7;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	font-size:16px;
+	font-weight: bold;
+}
+
+#Plan table.sougiPlan td {
+	padding: 3px;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+}
+
+#Plan table.sougiPlan td.koumoku {
+	padding: 3px;
+	background-color: #fbfaf4;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	
+}
+
+#Plan table.sougiPlan td.naiyou {
+	padding: 3px;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	
+}
+
+#Plan table.sougiPlan td.check {
+	padding: 3px;
+	border-right: 1px solid #f1f1f1;
+	border-bottom: 1px solid #f1f1f1;
+	text-align: center;
+}
+
+/*オンラインボタン*/
+.online_btn_area{
+	width:627px;
+	border:3px solid #ede9d5;
+	background:url("../images/detail/bg_online.gif") repeat left top;
+}
+
+.online_btn_area .border01{
+	border:1px solid #FFFFFF;
+}
+
+.online_btn_area img.title_online{
+	float:left;
+	width:309px;
+	padding:0 5px;
+}
+
+.online_btn_area ul{
+	float:left;
+	width:304px;
+	margin-top:5px;
+}
+
+.online_btn_area ul li{
+	float:left;
+	margin-right:10px;
+}
+
+/*IE6*/
+*html .online_btn_area ul{
+	float:left;
+	width:294px;
+	margin-top:5px;
+}
+
+*html .online_btn_area ul li{
+	float:left;
+	margin-right:5px;
+}
+
+/*見積り依頼*/
+.Estimate_Area{
+	width:633px;
+	margin:0 auto;
+	text-align:right;
+	font-weight:bold;
+}
+
+.Estimate_Area img{
+	margin-right:10px;
+	vertical-align:middle;
+}
+
+.Estimate_Area a{
+	color:#544124;
+}
+
+/*無料見学会*/
+#Inspection table{
+	width:633px;
+	margin:0 auto 20px auto;
+	border-top:1px solid #f1f1f1;
+	border-left:1px solid #f1f1f1;
+}
+
+#Inspection table .even{
+	background:#fbfaf4;
+}
+
+#Inspection table th{
+	padding:3px;
+	text-align:left;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+}
+
+#Inspection table td{
+	padding:3px;
+	border-right:1px solid #f1f1f1;
+	border-bottom:1px solid #f1f1f1;
+}
+
+
+#Hall_Data .Left .Main_Photo img{
+	width:280px;
+}
+
+/*写真の設定*/
+.resize {
+	width: auto;
+	height: auto;
+	max-width: 280px;
+	max-height: 280px;
+}
+* html body .resize {
+	width: expression(this.width > this.height ? "280px" : "auto");
+	height: expression(this.width < this.height ? "280px" : "auto");
+}
+.sub_photo {
+	display: block;
+	width: 280px;
+}
+
+
+img {
+	-ms-interpolation-mode: bicubic;
+}
+
+.Basic_Data .clearfix .left{
+	float:left;
+	width:40px;
+}
+.Basic_Data .clearfix .right{
+	float:left;
+	width:364px;
+}
+
+/*ギャラリー*/
+#Gallery{
+	margin-top:30px;
+}
+
+#Gallery #Photo_Area{
+	width:633px;
+}
+
+#Gallery #Photo_Area .content{
+	width:347px;
+	margin:0px 60px 0 -30px;
+}

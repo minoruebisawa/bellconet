@@ -1,0 +1,269 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■１．ご契約プラン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Contents{
+	width:760px;
+	padding:20px 20px 0 20px;
+}
+
+#Contents #title{
+	margin-bottom:15px;
+}
+
+#Contents #title h3{
+	float:left;	
+}
+
+#Contents #title .online_area{
+	float:right;
+	padding-left:61px;
+}
+
+#Contents #title .online_area img{
+	margin-left:6px;	
+}
+
+#Contents h3{
+	margin-bottom:15px;
+}
+
+#Section_Plan h4{
+	margin-bottom:10px;	
+}
+
+#Section_Plan h5{
+	margin-bottom:6px;	
+}
+
+#Section_Plan h5.title_v{
+	margin-top:40px;	
+}
+
+#Section_Plan .hokkaido01 h5{
+	padding:30px 0 10px 0;
+}
+
+#Section_Plan .hokkaido02 h5{
+	padding:30px 0 10px 0;
+}
+
+
+/*図*/
+img.plan_fig{
+	margin:20px 0;	
+}
+
+/*h4の設定*/
+h4.plan_h4{
+	margin-top:40px;	
+}
+
+
+/*テーブル*/
+.plan_table{
+	margin-top:20px;
+}
+
+.plan_table table{
+	border-top:1px solid #CCCCCC;
+	border-right:1px solid #CCCCCC;
+}
+
+.plan_table th{
+	padding:5px 0;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+}
+
+.plan_table th.title{
+	background:#fff8e5;
+}
+
+.plan_table td{
+	padding:5px;
+	border-left:1px solid #CCCCCC;
+	border-bottom:1px solid #CCCCCC;
+	text-align:center;
+}
+
+/*ボタン設定*/
+.plan_btn{
+	padding:20px 0 0 11px;	
+}
+.plan_btn img{
+	margin-left:15px;	
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■２．結婚式
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*ボタン設定*/
+.marry_btn{
+	margin:20px 0 30px 0;	
+}
+.marry_btn img#right_btn{
+	margin-left:20px;	
+}
+
+#Section_marry h5{
+	font-weight:normal;	
+}
+
+#Section_marry .hokkaido02 h4{
+	margin-top:60px;	
+}
+
+/*北海道プラン - テーブル*/
+#Section_marry .plan_table{
+	margin-bottom:20px;	
+}
+
+/*テーブル - 新郎*/
+.table_shinro{
+	padding-top:20px;	
+}
+.table_shinro table{
+	border-top:1px solid #a8ccf0;
+	border-left:1px solid #a8ccf0;
+}
+.table_shinro table caption{
+	padding-bottom:10px;
+	text-align:left;
+}
+.table_shinro table th{
+	background:#629fdc;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-bottom:1px solid #a8ccf0;
+	border-right:1px solid #a8ccf0;
+}
+
+.table_shinro table td{
+	padding:5px;
+	border-bottom:1px solid #a8ccf0;
+	border-right:1px solid #a8ccf0;
+}
+
+.table_shinro table .line01{
+	background:#e4f2ff;	
+}
+
+.table_shinro table .line02{
+	background:#f2f9ff;
+}
+
+.table_shinro p{
+	margin:15px 0;	
+}
+
+
+/*テーブル - 新婦*/
+.table_shinpu{
+	margin-top:40px;	
+}
+.table_shinpu table{
+	border-top:1px solid #f0a8c0;
+	border-left:1px solid #f0a8c0;
+}
+.table_shinpu table caption{
+	padding-bottom:10px;
+	text-align:left;
+}
+.table_shinpu table th{
+	background:#dc638a;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-bottom:1px solid #f0a8c0;
+	border-right:1px solid #f0a8c0;
+}
+
+.table_shinpu table td{
+	padding:5px;
+	border-bottom:1px solid #f0a8c0;
+	border-right:1px solid #f0a8c0;
+}
+
+.table_shinpu table .line01{
+	background:#ffe3ed;	
+}
+
+.table_shinpu table .line02{
+	background:#fff3f7;
+}
+
+.table_shinpu p{
+	margin:15px 0;	
+}
+
+/*早期利用費タイトル*/
+h5.plan_h5{
+	margin-top:40px;	
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■３．お葬式
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_Plan .hokkaido01 h5,
+#Section_Plan .hokkaido02 h5{
+	font-weight:normal;	
+}
+#Section_Plan .hokkaido02 h5{
+	margin-top:60px;	
+}
+
+#Section_Plan #plan_box{
+	padding-bottom:30px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+#Section_Plan #plan_box p{
+	float:left;
+	width:560px;
+	padding-right:30px;
+}
+
+#Section_Plan #plan_box .detail_photo{
+	float:left;
+	width:165px;
+	padding:10px 0;
+}
+
+/*テーブル - お葬式*/
+.table_sougi{
+	margin-top:40px;	
+}
+.table_sougi table{
+	border-top:1px solid #b8aecc;
+	border-left:1px solid #b8aecc;
+}
+.table_sougi table caption{
+	padding-bottom:10px;
+	text-align:left;
+}
+.table_sougi table th{
+	background:#886dbe;
+	color:#FFFFFF;
+	font-weight:bold;
+	border-bottom:1px solid #b8aecc;
+	border-right:1px solid #b8aecc;
+}
+
+.table_sougi table td{
+	padding:5px;
+	border-bottom:1px solid #b8aecc;
+	border-right:1px solid #b8aecc;
+}
+
+.table_sougi table .line01{
+	background:#ede3ff;	
+}
+
+.table_sougi table .line02{
+	background:#f7f3ff;
+}
+
+
+

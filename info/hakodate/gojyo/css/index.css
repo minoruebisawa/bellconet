@@ -1,0 +1,39 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	互助会ってなに？
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Index{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Index .Index_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Index_Wrapper{
+	margin-bottom:35px;
+}
+
+.Index_Wrapper h5{
+	margin-bottom:20px;
+}
+
+.Index_Wrapper p{
+	margin-bottom:15px;
+}
+
+.Index_Wrapper dl{
+	float:left;
+	width:249px;
+}
+
+.Index_Wrapper img.right_img{
+	float:right;	
+}
+
+.Index_Wrapper img.title{
+	margin:0 0 10px 0;
+}

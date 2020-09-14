@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	新着情報
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Q{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Q .Q_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+#Q .Q_Contents h5{
+	margin-bottom:20px;	
+}
+
+/*上部テキスト*/
+#Q .Q_Contents p.text_top{
+	margin-bottom:20px;
+}

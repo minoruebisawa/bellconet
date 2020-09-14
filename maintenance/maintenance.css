@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	リセット
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body,
+h1,h2,h3,h4,h5,h6,p,
+ul,ol,li,dl,dt,dd,
+form,fieldset,legend,pre,blockquote,button{
+	margin:0px;
+	padding:0px;
+}
+
+ul,li { list-style:none; }
+
+img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	vertical-align:bottom;
+}
+
+th{ font-weight:normal; }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	デフォルト
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body {
+	margin:0px;
+	padding:0px;
+	background: #FFFFFF url("images/second_bg.gif") repeat-x left top;
+	font-size:80%;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	_font:13px/1.231 Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	line-height:1.5em;
+	color:#5e5e5e;
+}
+
+*html body {/* IE6 フォント指定*/
+	font-size:76%;
+}
+/*IE6用 ロールオーバーチラつき解除*/
+html{
+	height:100%;
+	_filter expression(document.execCommand("BackgroundImageCache",fals,true));	
+}
+
+h1 { margin:0; }
+
+h2 { margin:0; }
+
+h3 { margin:0; }
+
+h4 { margin:0; }
+
+a,
+a:link,
+a:visited {
+	text-decoration:underline;
+}
+a:hover,
+a:active {
+	text-decoration:none;
+}
+
+p { line-height:1.5em; }
+
+hr { display:none; }
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	全体枠
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_All{
+	width:982px;
+	margin:0 auto;
+	padding:0 9px;
+}
+
+#Section_All h1{
+	height:18px;
+	padding:2px 0 0 270px;
+	background:url("images/h1_bg.gif") no-repeat left top;	
+	font-size:75%;
+	font-weight:normal;
+	color:#00446e;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	メイン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+/*--------左側--------*/
+#Section_Left{
+	width:244px;
+}
+/*ロゴ*/
+#Section_Left h2{
+	margin-left:13px;
+	padding:0px 76px 40px 55px;
+	background:url("images/h2_bg.gif") no-repeat left top;
+}
+
+
+/*--------右側--------*/
+#Section_Right{
+	width:700px;
+	margin:80px auto 150px auto;
+	padding:50px 30px;
+	border:2px solid #006;
+}
+
+#Section_Right p{
+	text-align:center;
+	font-size:120%;
+	color:#006;
+}
+
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　フッター
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Footer{
+	margin:0;
+	padding:6px 0 145px 0;
+}
+
+#Footer p{
+	width:982px;
+	height:12px;
+	margin:5px auto;
+	font-size:80%;
+	color:#5f5c51;
+	text-align:right;
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	対複数設定
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.clear{
+	clear:both;	
+}
+
+.font_s{
+	font-size:75%;	
+}
+
+.red{
+	color:#ab231a;	
+}
+
+.blue{
+	color:#1f90a8;
+}
+
+.navy{
+	color:#002e4a;
+}
+
+/*---------------------------------------
+	フロート解除用
+---------------------------------------*/
+.clearfix{
+	zoom:1; /* clear float - ie */
+}
+.clearfix:after{ /* clear float */
+	content:".";
+	display:block;
+	height:0;
+	clear: both;
+	visibility:hidden;
+}

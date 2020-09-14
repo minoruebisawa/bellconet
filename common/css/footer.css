@@ -1,0 +1,74 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　ページトップ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.pagetop{
+	margin-top:20px;
+	text-align:right;
+	border-bottom:4px solid #000000;
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+　　フッター
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Footer ul{
+	padding:10px;
+}
+
+#Footer ul li a{
+	padding-left:10px;
+	background:url("../images/arrow_black.gif") no-repeat left 5px;
+	color:#43a3df;
+}
+
+#Footer ul#menu01{
+	margin-bottom:10px;
+	border-bottom:1px solid #b3b3b3;
+}
+
+#Footer ul#menu01 li{
+	float:left;
+	margin-right:15px;
+	font-size:80%;
+}
+
+#Footer .main_menu01{
+	border-bottom:1px solid #b3b3b3;
+}
+
+#Footer .main_menu01 ul{
+	float:left;
+	margin-right:15px;
+}
+
+#Footer .main_menu01 ul li{
+	font-size:80%;
+}
+
+#Footer p{
+	float:right;
+	margin-top:5px;
+	text-align:right;
+	font-size:80%;
+	color:#5c5c5c;
+}
+#Footer .Btn_Area{
+	float:left;
+	width:350px;
+	}
+
+#Footer .Btn_Area li{
+	float:left;
+	}
+
+#Footer .Btn_Area li a{
+	background:none!important;
+	list-style:none!important;
+	}
+
+
+/*背景画像ロールオーバーのちらつき処理*/
+html {
+  filter: expression(document.execCommand("BackgroundImageCache", false, true));
+}

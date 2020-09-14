@@ -1,0 +1,35 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	ご利用について
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Merit{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Merit .Merit_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Merit_Wrapper{
+	margin-bottom:35px;
+}
+
+.Merit_Wrapper h5{
+	margin-bottom:20px;
+}
+
+.Merit_Wrapper p{
+	margin-bottom:15px;
+}
+
+.Merit_Wrapper p.left_text{
+	float:left;
+	width:302px;
+}
+
+.Merit_Wrapper img.right_img{
+	float:right;	
+}

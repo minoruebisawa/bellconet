@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	契約コースについて
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Index{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Index .Index_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+.Index_Wrapper{
+	margin-bottom:35px;
+}
+
+.Index_Wrapper h5{
+	margin-bottom:20px;
+}
+
+.Index_Wrapper p{
+	margin-bottom:15px;
+}
+
+.Index_Wrapper p.text02{
+	margin-top:15px;
+}
+
+.Index_Wrapper p.left_text{
+	float:left;
+	width:250px;
+	margin-right:28px;
+}
+
+.Index_Wrapper img.right_img{
+	float:left;
+}
+
+
+/*表*/
+.Index_Wrapper table.table_index{
+	border:1px solid #d94242;
+}
+
+.Index_Wrapper table.table_index th{
+	padding:10px 0;
+	background:#d94242;
+	border:1px solid #FFFFFF;
+	color:#FFFFFF;
+}
+
+.Index_Wrapper table.table_index td{
+	padding:10px;
+	border-right:1px solid #b2b2b2;
+	border-bottom:1px solid #b2b2b2;
+}
+
+.Index_Wrapper table.table_index td.price{
+	padding-right:20px;
+	text-align:right;
+}
+
+.Index_Wrapper table.table_index td.noborder02{
+	border-bottom:none;
+}
+
+.Index_Wrapper table.table_index td.noborder{
+	border-right:none;
+	border-bottom:none;
+}
+
+
+/*ボタン*/
+.Index_Wrapper ul{
+	margin-top:10px;	
+}
+
+.Index_Wrapper ul li{
+	float:left;
+	margin-right:6px;
+}
+
+.Index_Wrapper ul li.last{
+	margin-right:0;
+}

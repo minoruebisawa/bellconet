@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	入会お申込み
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#News{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#News .News_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+/*ページ番号*/
+#News .Page_Number{
+	padding-bottom:10px;
+	border-bottom:3px solid #262626;
+}
+
+#News .Page_Number02{
+	margin-top:25px;
+	padding-top:10px;
+	border-top:3px solid #262626;
+}
+
+/*
+#News .Page_Number a.back,
+#News .Page_Number02 a.back{
+	padding-left:15px;
+	background:url("../images/icon_arrow_back.gif") no-repeat left 5px;
+}
+
+#News .Page_Number a.next,
+#News .Page_Number02 a.next{
+	padding-right:15px;
+	background:url("../images/icon_arrow_next.gif") no-repeat right 5px;
+}
+*/
+
+#News .Page_Number a,
+#News .Page_Number a:link,
+#News .Page_Number02 a,
+#News .Page_Number02 a:link{
+	color:#43a3df;
+}
+
+#News .Page_Number a:active,
+#News .Page_Number a:hover,
+#News .Page_Number a:visited,
+#News .Page_Number02 a:active,
+#News .Page_Number02 a:hover,
+#News .Page_Number02 a:visited{
+	color:#970099;
+	text-decoration:none;
+}
+
+#page_data02 img {
+	vertical-align: middle;
+}
+
+
+/*記事*/
+.Info_Area{
+	margin-top:25px;	
+}
+
+.Info_Area p.date{
+	font-size:80%;
+}
+
+.Info_Area p.date img{
+	margin-right:5px;
+	vertical-align:top;
+}
+
+.Info_Area h4{
+	margin-bottom:15px;
+	padding:8px 0 15px 0;
+	border-bottom:1px solid #a8a8a8;
+	color:#262626;
+	font-size:120%;
+}
+
+.Info_Area h5{
+	margin-bottom:15px;
+	padding:8px 0 15px 0;
+	border-bottom:1px solid #a8a8a8;
+	color:#262626;
+	font-size:120%;
+}
+
+.Info_Area table th{
+	padding-left:15px;
+	text-align:left;
+	font-weight:normal;
+}
+
+.Info_Area table td{
+	padding-left:15px;	
+}
+
+.Info_Area table td img{
+	margin:0 15px 0 20px;
+	border:1px solid #bdc1d0;
+}

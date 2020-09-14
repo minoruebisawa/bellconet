@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	ご契約の流れ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Flo{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Flo .Flo_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+#Flo h5{
+	margin-bottom:20px;	
+}
+
+/*入力方法は2種類から選べます*/
+#Flo .Yellow_Wrapper{
+	background:url("../images/yellow_bg_repeat.gif") repeat-y left top;
+}
+#Flo .Yellow_Wrapper .top{
+	background:url("../images/yellow_bg_top.gif") no-repeat left top;
+}
+
+#Flo .Yellow_Wrapper .bottom{
+	padding:0px 15px 32px 15px;
+	background:url("../images/flo/yellow_bg_foot01.gif") no-repeat left bottom;
+}
+
+#Flo .Yellow_Wrapper .bottom02{
+	padding:0 15px 32px 15px;
+	background:url("../images/flo/yellow_bg_foot02.gif") no-repeat left bottom;
+}
+
+#Flo .Yellow_Wrapper .bottom03{
+	padding:0 15px 32px 15px;
+	background:url("../images/flo/yellow_bg_foot03.gif") no-repeat left bottom;
+}
+
+#Flo .Yellow_Wrapper .bottom table,
+#Flo .Yellow_Wrapper .bottom02 table,
+#Flo .Yellow_Wrapper .bottom03 table{
+	padding-top:15px;
+}
+
+#Flo .Yellow_Wrapper .bottom table th,
+#Flo .Yellow_Wrapper .bottom02 table th,
+#Flo .Yellow_Wrapper .bottom03 table th{
+	width:178px;
+	padding-right:10px;
+	background:url("../images/flo/dot_line.gif") repeat-y right top;	
+}
+
+#Flo .Yellow_Wrapper .bottom table td,
+#Flo .Yellow_Wrapper .bottom02 table td,
+#Flo .Yellow_Wrapper .bottom03 table td{
+	width:406px;
+	padding-left:10px;
+}

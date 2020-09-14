@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	入会お申込み
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Online{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;
+	color:#404040;
+}
+
+#Online .Online_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+#Online h5{
+	margin-bottom:20px;	
+}
+
+#Online p{
+	width:610px;
+	margin:0 auto 30px auto;
+}
+
+/*オンライン入会お申込みとは？*/
+#Online ul#Online_Merit{
+	margin-bottom:20px;
+}
+
+#Online ul#Online_Merit li{
+	float:left;
+	width:309px;
+	margin-bottom:20px;
+}
+
+#Online ul#Online_Merit li.left_li{
+	margin-right:15px;
+}
+
+#Online ul#Online_Merit li dl{
+	width:309px;
+	background:url("../images/index/dl_bg_repeat.gif") repeat-y left top;
+}
+
+#Online ul#Online_Merit li dl dd{
+	padding:20px;
+	background:url("../images/index/dd_bg_bottom.gif") no-repeat left bottom;
+}
+
+/*入力方法は2種類から選べます*/
+#Online .Yellow_Wrapper{
+	margin-bottom:20px;
+	background:url("../images/yellow_bg_repeat.gif") repeat-y left top;
+}
+#Online .Yellow_Wrapper .top{
+	background:url("../images/yellow_bg_top.gif") no-repeat left top;
+}
+
+#Online .Yellow_Wrapper .bottom{
+	padding:20px;
+	background:url("../images/yellow_bg_bottom.gif") no-repeat left bottom;
+}
+
+#Online .Yellow_Wrapper .bottom dl{
+	float:left;
+	width:381px;
+}
+
+#Online .Yellow_Wrapper .bottom dl dt{
+	margin-bottom:15px;
+}
+
+#Online .Yellow_Wrapper .bottom img.right_img{
+	float:left;
+	width:189px;
+	margin-left:20px;
+}
+
+/*ご用意いただくもの*/
+#Online .Preparation .left_text{
+	float:left;
+	width:455px;
+}
+
+#Online .Preparation img.right_img02{
+	float:left;
+	width:160px;
+	margin:11px 0 0 15px;
+}

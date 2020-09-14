@@ -1,0 +1,362 @@
+@charset "utf-8";
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	リセット
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, form, fieldset, legend, pre, blockquote, button {
+	margin:0px;
+	padding:0px;
+}
+
+ul, li {
+	list-style:none;
+}
+img {
+	margin:0px;
+	padding:0px;
+	border:0px;
+	vertical-align:bottom;
+}
+th {
+	font-weight:normal;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	デフォルト
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+body {
+	margin:0px;
+	padding:0px;
+	background:#FFFFFF;
+	font-family:"Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", sans-serif;
+	_font:13px/1.231 Osaka, "ＭＳ Ｐゴシック", "MS P Gothic", sans-serif;
+	line-height:1.5em;
+	font-size:80%;
+}
+*html body {/* IE6 フォント指定*/
+	font-size:80%;
+}
+/*IE6用 ロールオーバーチラつき解除*/
+html {
+	height:100%;
+ _filter expression(document.execCommand("BackgroundImageCache", fals, true));
+}
+h1 {
+	margin:0;
+}
+h2 {
+	margin:0;
+}
+h3 {
+	margin:0;
+}
+h4 {
+	margin:0;
+}
+a, a:link, a:visited {
+	text-decoration:underline;
+}
+a:hover, a:active {
+	text-decoration:none;
+}
+p {
+	line-height:1.5em;
+}
+hr {
+	display:none;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	全体枠
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_All {
+	width:942px;
+	margin:0 auto;
+	padding:0;
+	background:url("../../../common/images/bg_all_repeat.gif") repeat-y left top;
+}
+
+/*-----------------　ヘッダー　------------------*/
+/*ロゴ*/
+#Section_All #Header h1{
+	float:left;
+	width:212px;
+}
+
+/*右側要素*/
+#Section_All #Header #head_right{
+	 float:left;
+	 width:699px;
+	 padding:0 0 10px 31px;
+	 background:#FFFFFF;
+}
+
+#Section_All #Header #head_right h2{
+	height:13px;
+	font-size:10px;
+	color:#e4b90d;
+	font-weight:normal;
+}
+
+#Section_All #Header #head_right ul.btn_right{
+	float:left;
+	width:117px;
+	margin-top:8px;
+}
+
+#Section_All #Header #head_right ul li{
+	float:left;
+	font-size:80%;
+}
+
+#Section_All #Header #head_right ul.btn_right li.btn01{
+	margin-right:0px;
+}
+
+/*パンくずリスト*/
+#Section_All #Header #head_right ul.topicpass{
+	float:left;
+	width:582px;
+	margin-top:20px;
+}
+
+#Section_All #Header #head_right ul.topicpass li a,
+#Section_All #Header #head_right ul.topicpass li a:link{
+	color:#43a3df;	
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	メイン
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Contents{
+	width:942px;
+	padding-bottom:20px;
+}
+
+/*----------左側------------*/
+#Contents #Contents_Left{
+	float:left;
+	width:212px;
+	text-align:center;
+	background:url("../../../common/images/body_bg.gif") repeat-x left top;
+}
+
+#Contents #Contents_Left h3{
+	margin-bottom:10px;
+}
+
+/*各エリアトップへ戻るボタン*/
+.btn_r_areatop{
+	width:202px;
+	margin:15px 10px 10px 0;
+	text-align:right;
+}
+
+/*オンライン入会*/
+#Contents #Contents_Left .Online{
+	background:url("../../../common/images/online_bg_repeat.gif") repeat-y left top;	
+}
+
+#Contents #Contents_Left .Online dl{
+	padding-bottom:13px;
+	background:url("../../../common/images/online_bg_bottom.gif") no-repeat left bottom;	
+}
+
+#Contents #Contents_Left .Online dl dd.online01{
+	padding-bottom:6px;
+	background:url("../../../common/images/online_bg_middle.gif") no-repeat left top;	
+}
+#Contents #Contents_Left .Online dl dd.online02{
+	padding-padding:5px;	
+	background:url("../../../common/images/online_bg_middle.gif") no-repeat left bottom;	
+}
+
+/*メニュー*/
+#Contents #Contents_Left .Menu{
+	margin-bottom:30px;
+	padding-top:3px;
+	background:url("../../../common/images/menu_top_bg.gif") no-repeat left top;
+}
+
+#Contents #Contents_Left .Menu ul#accordion{
+	background:url("../../../common/images/menu_bg.gif") repeat-y left top;
+}
+
+#Contents #Contents_Left .Menu ul#accordion li.text_link{
+	margin-bottom:4px;
+	text-align:left;
+}
+
+#Contents #Contents_Left .Menu ul#accordion ul{
+	padding-top:5px;
+}
+
+#Contents #Contents_Left .Menu ul#accordion ul li{
+	padding-bottom:5px;
+}
+
+#Contents #Contents_Left .Menu ul#accordion li.last{
+	padding:15px 10px 0 0;
+	background:#ffcf0f;
+	text-align:right;
+}
+
+
+
+/*------------右側------------*/
+#Contents #Contents_Right{
+	float:left;
+	width:699px;
+	height:100%;/* for IE6 */
+	min-height:100%;
+	padding-left:31px;
+	background:#FFFFFF;
+}
+
+/*互助会のベルコサービス提供エリア*/
+#Contents #Contents_Right .Service_Area{
+	background:url("../../../common/images/main_bg_repeat.gif") repeat-y left top;	
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents{
+	padding:25px 33px 33px 33px;
+	background:url("../../../common/images/main_bg_bottom.gif") no-repeat left bottom;	
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .left{
+	float:left;
+	width:148px;
+	padding-right:20px;
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .left p{
+	margin-bottom:20px;
+	font-size:75%;	
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .left ul{
+	height:221px;
+	padding:20px;
+	background:url("../images/dot_red_bg.gif") no-repeat left top;	
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .left ul li{
+	margin-bottom:8px;
+	padding-left:20px;
+	background:url("../images/arrow_circle_black.gif") no-repeat left 3px;	
+}
+#Contents #Contents_Right .Service_Area .Area_Contents .left ul li.no_arrow{
+	margin-top:4px;
+	margin-bottom:2px;
+	padding-left:0px;
+	background:none;
+	font-size:80%;
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .left ul li a{
+	font-size:100%;
+	color:#46a3de;
+	font-weight:bold;
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .right{
+	float:left;
+	width:463px;
+	border:1px solid #212121;
+}
+
+#Contents #Contents_Right .Service_Area .Area_Contents .right iframe{
+	padding:1px;	
+}
+
+/*バナーと新着*/
+.Contents_Banner_News{
+	width:699px;
+	margin-top:15px;
+}
+
+/*バナー*/
+.Contents_Banner_News ul{
+	float:left;
+	width:428px;
+}
+
+.Contents_Banner_News ul li{
+	float:left;
+	width:204px;
+	margin-right:9px;
+}
+
+.Contents_Banner_News ul li.banner01 a,
+.Contents_Banner_News ul li.banner01 a:link{
+	display:block;
+	width:184px;
+	height:42px;
+	padding:75px 10px 0 10px;
+	background:url("../images/btn_qa.gif") no-repeat left top;
+	font-size:80%;
+	color:#FFFFFF;
+}
+
+.Contents_Banner_News ul li.banner01 a:visited,
+.Contents_Banner_News ul li.banner01 a:hover,
+.Contents_Banner_News ul li.banner01 a:active{
+	background:url("../images/btn_qa_on.gif") no-repeat left top;
+}
+
+.Contents_Banner_News ul li.banner02 a,
+.Contents_Banner_News ul li.banner02 a:link{
+	display:block;
+	width:184px;
+	height:42px;
+	padding:75px 10px 0 10px;
+	background:url("../images/btn_plan.gif") no-repeat left top;
+	font-size:80%;
+	color:#FFFFFF;
+}
+
+.Contents_Banner_News ul li.banner02 a:visited,
+.Contents_Banner_News ul li.banner02 a:hover,
+.Contents_Banner_News ul li.banner02 a:active{
+	background:url("../images/btn_plan_on.gif") no-repeat left top;
+}
+
+
+/*新着情報*/
+.Info_Area{
+	float:left;
+	width:264px;
+}
+
+.Info_Area h5{
+	margin-bottom:12px;
+}
+
+.Info_Area #topics div{
+	padding-left:10px;
+	font-size:80%;
+	background:url("../../../common/images/arrow_black.gif") no-repeat left 5px;
+}
+
+.Info_Area #topics a,
+.Info_Area #topics a:link{
+	color:#43a3df;
+}
+
+
+/*---------------------------------------
+	フロート解除用
+---------------------------------------*/
+.clearfix {
+	zoom:1; /* clear float - ie */
+}
+.clearfix:after { /* clear float */
+	content:".";
+	display:block;
+	height:0;
+	clear: both;
+	visibility:hidden;
+}
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+	対複数設定
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+.clear {
+	clear:both;
+}

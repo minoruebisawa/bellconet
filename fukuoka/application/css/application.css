@@ -1,0 +1,207 @@
+@charset "utf-8";
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■１．オンライン入会お申込み
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Contents{
+	width:760px;
+	padding:20px 20px 0 20px;
+}
+
+#Contents #title{
+	margin-bottom:15px;
+}
+
+#Contents #title h3{
+	float:left;	
+}
+
+#Contents #title .online_area{
+	float:right;
+	padding-left:61px;
+}
+
+#Contents #title .online_area img{
+	margin-left:6px;	
+}
+
+#Contents h3{
+	margin-bottom:15px;
+}
+
+/*内容エリア*/
+#Section_Application{
+	width:760px;
+}
+
+#Apprication_main{
+	margin-bottom:30px;
+	padding-top:10px;	
+}
+
+/*１*/
+#Apprication_main #step01{
+	padding-bottom:15px;
+	border-bottom:1px solid #CCCCCC;	
+}
+
+#Apprication_main #step01 img.icon_left{
+	float:left;
+	width:73px;
+}
+
+#Apprication_main #step01 dl{
+	float:left;
+	width:650px;
+	padding:10px 0 0 20px;
+}
+#Apprication_main #step01 dl dt{
+	padding-bottom:5px;	
+}
+
+/*2以降*/
+#Apprication_main dl.app_step{
+	border-bottom:1px solid #CCCCCC;	
+}
+
+#Apprication_main dl.app_step dt{
+	padding:15px 0 5px 0;
+}
+
+#Apprication_main dl.app_step dd{
+	padding-bottom:15px;
+}
+
+/*オンライン入会お申込み手順*/
+#apprication_flo h4{
+	margin-bottom:10px;
+}
+#apprication_flo h5{
+	float:left;
+	width:145px;
+	margin:0 10px 5px 0;
+}
+#apprication_flo #flo_title p{
+	margin:0 0 10px 0;
+}
+
+#apprication_flo #flo_title{
+	float:left;
+	width:606px;
+}
+
+#apprication_flo .reTopFlaArea{
+	margin-bottom:35px;	
+}
+
+
+/*ボタン*/
+.online_btn{
+	width:454px;
+	padding-right:6px;
+	margin:20px auto 0 auto;
+}
+
+.online_btn img{
+	margin-left:6px;	
+}
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■２．ご契約の流れ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Section_Application p.read_text{
+	padding-bottom:10px;	
+}
+
+#Section_Application #wrapper{
+	padding:10px;
+	border:3px solid #CCCCCC;	
+}
+
+#Section_Application #wrapper h4{
+	float:left;
+	margin-right:20px;
+}
+
+#Section_Application #wrapper p{
+	float:left;	
+	width:573px;
+}
+
+#Section_Application #wrapper p.text_block{
+	padding-top:8px;	
+}
+
+#Section_Application .green_wrapper{
+	margin:5px 0;
+	padding:5px 0;
+	border:1px solid #208a32;
+	background:#d8efdb;
+	text-align:center;
+	color:#003399;
+}
+
+/*グレーやじるし*/
+img.arrow_gray{
+	width:244px;
+	padding:1px 0 2px 258px;
+}
+
+/*ボタンエリア*/
+.btn_area{
+	width:268px;
+	margin:20px auto 0 auto;	
+}
+
+
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■３．ご利用について
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Marry img.img_left,
+#funeral img.img_left{
+	float:left;
+	width:140px;
+	padding-right:12px;
+}
+
+#Marry .section_right,
+#funeral .section_right{
+	float:left;	
+}
+
+#Marry .section_right,
+#funeral .section_right{
+	width:608px;	
+}
+
+#Marry .section_right dt,
+#funeral .section_right dt{
+	padding-bottom:10px;	
+}
+
+#Marry .section_right dd,
+#funeral .section_right dd{
+	margin-bottom:15px;
+	padding-bottom:15px;
+	border-bottom:1px solid #CCCCCC;
+}
+
+#funeral .section_right dd .read_text{
+	color:#CC0000;
+}
+
+#funeral{
+	margin-top:40px;	
+}
+
+.btn_area2{
+	margin:10px 0 40px 0;	
+}
+
+.btn_area2 img#right_btn{
+	margin-right:20px;	
+}
+
+#apprication_flo .red_text{
+	color:#CC0000;
+	font-size:10px;
+}

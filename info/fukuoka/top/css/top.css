@@ -1,0 +1,81 @@
+@charset "utf-8";
+/*＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝
+■１．トップページ
+＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝＝*/
+#Contents{
+	width:740px;
+	padding:0 30px;
+}
+
+/*コンテンツ左側*/
+#Contents #Contents_left{
+	float:left;
+	width:410px;
+}
+
+#Contents #Contents_left h3{
+	margin-bottom:20px;	
+}
+
+#Contents #Contents_left p.text_link{
+	padding:10px 0;	
+}
+
+/*フラッシュ*/
+#Contents #Contents_left #myMainContent{
+	margin-top:40px;	
+}
+
+
+
+/*コンテンツ右側*/
+#Contents #Contents_right{
+	float:left;
+	margin-left:20px;
+}
+
+#Contents #Contents_right ul li{
+	margin-bottom:5px;	
+}
+
+#Contents #Contents_right .movie_area{
+	width:310px;
+	height:195px;
+	margin-top:40px;
+	background:#000000;
+}
+
+/*コンテンツ下*/
+#Contents #Contents_bottom{
+	clear:both;
+	margin-bottom:30px;
+	padding-top:20px;
+}
+
+#Contents #Contents_bottom ul li{
+	float:left;
+}
+
+#Contents #Contents_bottom ul li.bottom_li{
+	margin:0 10px;	
+}
+
+#Contents #Contents_bottom ul li dl{
+	width:234px;
+	border:3px solid #CCCCCC;	
+}
+
+#Contents #Contents_bottom ul li dl dd{
+	padding:10px;	
+}
+
+/*動画*/
+.movie_area2{
+	width:310px;
+	padding-top:20px;
+}
+.movie_area2 h3{
+	width:246px;
+	margin:0 auto;
+	padding-bottom:10px;
+}
