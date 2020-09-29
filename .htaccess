@@ -1,2 +1,4 @@
-RewriteEngine On
-RewriteRule .* http://www.bellconet.com/ [R=301,L]
+AuthUserFile /www/wwwtest/bellconet/.htpasswd
+AuthName "Please enter your ID and password"
+AuthType Basic
+require valid-user
